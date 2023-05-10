@@ -1,0 +1,36 @@
+.visit-header {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 82px;
+    color: #000000;
+    margin-bottom: 6px;
+}   
+
+.visit-parag {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.visit-exp {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 19px;
+}
+
+.arrow-body {
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}

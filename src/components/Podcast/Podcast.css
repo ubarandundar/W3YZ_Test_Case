@@ -1,0 +1,80 @@
+.podcast-body {
+    background: #EFEFEF;
+    border-radius: 40px;
+    padding: 120px 110px;
+    margin-bottom: 120px;
+}
+
+.podcast-header {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 82px;
+    color: #000000;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.podcast-header-sub {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 31px;
+    text-align: left;
+}
+
+.podcast-header-parag {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #808080;
+    margin-bottom: 118px;
+    text-align: left;
+}
+
+.podcast-spot {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #808080;
+}
+
+.podcast-right-side img {
+    width: 100%;
+    height: auto;
+}
+
+.european {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+    top: 8%;
+    left: 6%;
+}
+
+.european-exp {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+    top: 77%;
+    left: 6%;
+}

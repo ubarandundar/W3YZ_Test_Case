@@ -1,0 +1,25 @@
+nav {
+    padding: 63px 50px !important;
+}
+
+nav header {
+    margin-left: 12px !important;
+    font-size: 27px;
+    color: #000000;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+nav ul li a {
+    text-decoration: none !important;
+    color: #67645E;
+    font-size: 11px;
+    white-space: nowrap;
+    margin-left: 28px;
+}

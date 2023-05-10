@@ -1,0 +1,60 @@
+.intro img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0 20px 20px;
+    mix-blend-mode: multiply;
+}
+
+.intro-body {
+    background: linear-gradient(89.41deg, rgba(34, 0, 0, 0.8) 0.51%, rgba(87, 0, 0, 0) 99.54%);
+    mix-blend-mode: multiply;
+}
+
+.inside-header {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 82px;
+    color: white;
+}
+
+.intro span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.intro-inside {
+    position: absolute;
+    z-index: 2;
+    top: 23%;
+    left: 5%;
+}
+
+.welcome-header {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 82px;
+    color: #000000;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 32px;
+}
+
+.welcome-parag {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 120px;
+}

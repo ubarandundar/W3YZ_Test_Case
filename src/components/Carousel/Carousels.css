@@ -1,0 +1,74 @@
+.carousel-body {
+    background: #250400;
+    width: 100%;
+    height: 633px;
+}
+
+.yeni-header {
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 82px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ozel-header {
+    position: absolute;
+    z-index: 2;
+    bottom: 25%;
+    left: 10%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.carousel-body p {
+    color: white;
+}
+
+.carousel-body li {
+    list-style-type: none;
+}
+
+.control-prev {
+    margin-left: 80% !important;
+    top: 40% !important;
+    display: block !important;
+}
+
+.control-next {
+    margin-right: 10% !important;
+    top: 40% !important;
+    display: block !important;
+}
+
+.control-disabled.control-arrow {
+    opacity: 1 !important;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background: transparent !important;
+}
+
+.control-dots {
+    margin-left: 35% !important;
+    top: 66% !important;
+}
+
+.carousel-body li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
