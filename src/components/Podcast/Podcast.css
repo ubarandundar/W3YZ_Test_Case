@@ -5,6 +5,12 @@
     margin-bottom: 120px;
 }
 
+@media (max-width: 700px) {
+    .podcast-body {
+        padding: 60px 50px;
+    }
+}
+
 .podcast-header {
     font-family: 'Manrope';
     font-style: normal;
@@ -50,31 +56,35 @@
 .podcast-right-side img {
     width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
 }
 
 .european {
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    /* font-size: 24px; */
     line-height: 33px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     position: absolute;
     z-index: 2;
     top: 8%;
-    left: 6%;
+    left: 6%; 
+    font-size: 2vw;
 }
 
 .european-exp {
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 150%;
     color: #FFFFFF;
     position: absolute;
     z-index: 2;
     top: 77%;
-    left: 6%;
+    left: 6%; 
+    font-size: 1vw;
 }

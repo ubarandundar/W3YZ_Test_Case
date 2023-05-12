@@ -12,7 +12,7 @@ function VisitType() {
   return (
     <div style={{marginBottom: '180px'}} className='container'>
         <div className='row'>
-            <div className='col-6 d-flex flex-column justify-content-center'>
+            <div className='col-md-12 col-lg-6 pb-5 d-flex flex-column justify-content-center'>
                 <div className='visit-header'>
                     Ziyaret Biçimini Seç
                 </div>
@@ -20,7 +20,7 @@ function VisitType() {
                     Bu Muhteşem Müzeyi Nasıl Keşfetmek İstersin?
                 </div>
             </div>
-            <div className='col-6'>
+            <div className='col-md-12 col-lg-6'>
                 <div className='row'>
                     <div className='col-6 d-flex flex-column pe-5'>
                         <div style={{marginBottom: '95px'}} className='d-flex flex-row justify-content-between'>

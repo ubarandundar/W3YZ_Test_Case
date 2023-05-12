@@ -15,7 +15,7 @@ function Podcast() {
     <div className='container-fluid'>
         <div className='podcast-body'>
             <div style={{marginBottom: '50px'}} className='row'>
-                <div className='col-6'>
+                <div className='col-md-12 col-lg-6'>
                     <div className='podcast-header'>
                         Podcast
                     </div>
@@ -33,9 +33,9 @@ function Podcast() {
                         SPOTİFAY
                     </div>
                 </div>
-                <div className='col-6 podcast-right-side'>
+                <div className='col-md-12 col-lg-6 podcast-right-side'>
                     <div className='row'>
-                        <div className='col-3 d-flex flex-column jusfity-content-between'>
+                        <div className='col-3 d-flex flex-column justify-content-between'>
                             <div className='col-12 mb-4'>
                                 <img className='img-fluid' src={FirstImage} alt='FirstImage' />
                             </div>
@@ -43,7 +43,7 @@ function Podcast() {
                                 <img className='img-fluid' src={SecondImage} alt='SecondImage' />
                             </div>
                         </div>
-                        <div className='col-3 d-flex flex-column jusfity-content-between'>
+                        <div className='col-3 d-flex flex-column justify-content-between'>
                             <div className='col-12 mb-2'>
                                 <img className='img-fluid' src={ThirdImage} alt='ThirdImage' />
                             </div>
@@ -51,7 +51,7 @@ function Podcast() {
                                 <img className='img-fluid' src={FirstImage} alt='FirstImage' />
                             </div>
                         </div>
-                        <div className='col-6 d-flex flex-column jusfity-content-between'>
+                        <div className='col-6 d-flex flex-column justify-content-between'>
                             <div className='col-12 mb-2'>
                                 <img className='img-fluid' src={FourthImage} alt='FourthImage' />
                             </div>
@@ -71,8 +71,8 @@ function Podcast() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-3 position-relative'>
-                    <img src={FirstBigImage} alt='FirstBigImage' />
+                <div className='col-lg-3 col-md-6 col-sm-12 pb-2 position-relative d-flex justify-content-center'>
+                    <img className='img-fluid' src={FirstBigImage} alt='FirstBigImage' />
                     <div className='european'>
                         EUROPEAN    
                     </div>
@@ -84,8 +84,8 @@ function Podcast() {
                         incididunt ut labore et dolore magna.
                     </div>
                 </div>
-                <div className='col-3 position-relative'>
-                    <img src={SecondtBigImage} alt='SecondtBigImage' />
+                <div className='col-lg-3 col-md-6 col-sm-12 pb-2 position-relative d-flex justify-content-center'>
+                    <img className='img-fluid' src={SecondtBigImage} alt='SecondtBigImage' />
                     <div className='european'>
                         EUROPEAN    
                     </div>
@@ -97,8 +97,8 @@ function Podcast() {
                         incididunt ut labore et dolore magna.
                     </div>
                 </div>
-                <div className='col-3 position-relative'>
-                    <img src={ThirdBigImage} alt='ThirdBigImage' />
+                <div className='col-lg-3 col-md-6 col-sm-12 pb-2 position-relative d-flex justify-content-center'>
+                    <img className='img-fluid' src={ThirdBigImage} alt='ThirdBigImage' />
                     <div className='european'>
                         EUROPEAN    
                     </div>
@@ -110,8 +110,8 @@ function Podcast() {
                         incididunt ut labore et dolore magna.
                     </div>
                 </div>
-                <div className='col-3 position-relative'>
-                    <img src={FourthBigImage} alt='FourthBigImage' />
+                <div className='col-lg-3 col-md-6 col-sm-12 pb-2 position-relative d-flex justify-content-center'>
+                    <img className='img-fluid' src={FourthBigImage} alt='FourthBigImage' />
                     <div className='european'>
                         EUROPEAN    
                     </div>
