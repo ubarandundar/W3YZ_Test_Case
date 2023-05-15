@@ -9,7 +9,7 @@ function Intro() {
             <div className='intro-inside'>
                 <div className='inside-header'>
                     Çocuklar için sanat
-                    <br />
+                    <br className='inside-br' />
                     eğitimi
                 </div>
                 <span>
@@ -27,11 +27,8 @@ function Intro() {
             </div>
             <div className='welcome-parag'>
                 Bu muhteşem müzede keşfedilecek o kadar çok sanat eseri var ki! Bu yüzden en iyi
-                <br />
                 şekilde yararlanmak için ziyaretinizi önceden planlayın. Temaya dayalı bir turu takip
-                <br />
                 etmek için neden ziyaretçi parkurlarımızdan birini seçmiyorsunuz? Molaya ihtiyacınız
-                <br />
                 olduğunda, müzenin dinlendirici bahçelerinden daha iyi neresi var?
             </div>
         </div>

@@ -5,12 +5,6 @@
     margin-bottom: 120px;
 }
 
-@media (max-width: 700px) {
-    .podcast-body {
-        padding: 60px 50px;
-    }
-}
-
 .podcast-header {
     font-family: 'Manrope';
     font-style: normal;
@@ -57,14 +51,13 @@
     width: 100%;
     height: auto;
     display: flex;
-    align-items: center;
 }
 
 .european {
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 500;
-    /* font-size: 24px; */
+    font-size: 24px;
     line-height: 33px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -72,19 +65,207 @@
     z-index: 2;
     top: 8%;
     left: 6%; 
-    font-size: 2vw;
 }
 
 .european-exp {
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 400;
-    /* font-size: 16px; */
+    font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
     position: absolute;
     z-index: 2;
     top: 77%;
     left: 6%; 
-    font-size: 1vw;
+}
+
+@media (max-width: 700px) {
+    .podcast-body {
+        padding: 60px 50px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .european {
+        font-size: 19px;
+        top: 8%;
+        left: 8%; 
+    }
+
+    .european-exp {
+        font-size: 10px;
+        top: 75%;
+        left: 8%; 
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .european {
+        font-size: 21px;
+        top: 8%;
+        left: 8%; 
+    }
+
+    .european-exp {
+        font-size: 12px;
+        top: 75%;
+        left: 8
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .european {
+        font-size: 19px;
+        top: 8%;
+        left: 8%; 
+    }
+
+    .european-exp {
+        font-size: 10px;
+        top: 75%;
+        left: 8
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .podcast-body {
+        margin-bottom: 80px;
+    }
+
+    .podcast-header {
+        font-size: 55px;
+    }
+    
+    .podcast-header-sub {
+        font-size: 25px;
+    }
+    
+    .podcast-header-parag {
+        font-size: 14px;
+    }
+    
+    .podcast-spot {
+        font-size: 14px;
+    }
+
+    .european {
+        font-size: 18px;
+        top: 8%;
+        left: 8%; 
+    }
+
+    .european-exp {
+        font-size: 9px;
+        top: 75%;
+        left: 8%; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .podcast-body {
+        margin-bottom: 60px;
+    }
+
+    .podcast-header-parag {
+        margin-bottom: 100px;
+    }
+
+    .podcast-spot {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .european {
+        font-size: 22px;
+        top: 8%;
+        left: 6%; 
+    }
+
+    .european-exp {
+        font-size: 12px;
+        top: 77%;
+        left: 6%; 
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .podcast-body {
+        margin-bottom: 40px;
+    }
+
+    .podcast-header {
+        font-size: 50px;
+    }
+
+    .podcast-header-parag {
+        font-size: 12px;
+    }
+    
+    .podcast-header-sub {
+        font-size: 20px;
+    }
+
+    .podcast-header-parag {
+        margin-bottom: 80px;
+    }
+
+    .podcast-spot {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .european {
+        font-size: 22px;
+        top: 8%;
+        left: 20%; 
+    }
+
+    .european-exp {
+        font-size: 14px;
+        top: 77%;
+        left: 20%; 
+    }
+}
+
+@media (max-width: 576px) {
+    .podcast-body {
+        margin-bottom: 40px;
+    }
+
+    .podcast-header {
+        font-size: 50px;
+    }
+    
+    .podcast-header-sub {
+        font-size: 20px;
+    }
+    
+    .podcast-header-parag {
+        font-size: 10px;
+    }
+    
+    .podcast-header-parag {
+        margin-bottom: 40px;
+    }
+
+    .podcast-spot {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .european {
+        font-size: 22px;
+        top: 8%;
+        left: 8%; 
+    }
+
+    .european-exp {
+        font-size: 14px;
+        top: 77%;
+        left: 8%; 
+    }
 }

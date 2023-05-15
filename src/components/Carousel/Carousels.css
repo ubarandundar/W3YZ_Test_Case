@@ -1,3 +1,7 @@
+.carousel-wrapper {
+    margin-bottom: 130px;
+}
+
 .carousel-body {
     background: #250400;
     width: 100%;
@@ -71,4 +75,128 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .carousel-wrapper {
+        margin-bottom: 110px;
+    }
+
+    .carousel-body {
+        height: 600px;
+    }
+    
+    .yeni-header {
+        font-size: 55px;
+        top: 20%;
+        left: 50%;
+        line-height: 72px;
+    }
+    
+    .ozel-header {
+        font-size: 31px;
+        bottom: 25%;
+        left: 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .carousel-wrapper {
+        margin-bottom: 90px;
+    }
+
+    .carousel-body {
+        height: 570px;
+    }
+    
+    .yeni-header {
+        font-size: 50px;
+        top: 30%;
+        left: 50%;
+        line-height: 62px;
+    }
+    
+    .ozel-header {
+        font-size: 26px;
+        bottom: 25%;
+        left: 10%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .carousel-wrapper {
+        margin-bottom: 70px;
+    }
+
+    .carousel-body {
+        height: 550px;
+    }
+    
+    .yeni-header {
+        font-size: 45px;
+        top: 30%;
+        left: 50%;
+        line-height: 52px;
+    }
+    
+    .ozel-header {
+        font-size: 21px;
+        bottom: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .control-prev {
+        margin-left: 40% !important;
+        top: 60% !important;
+    }
+    
+    .control-next {
+        margin-right: 40% !important;
+        top: 60% !important;    
+    }
+
+    .control-dots {
+    margin-left: 0% !important;
+    top: 76% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .carousel-body {
+        height: 500px;
+    }
+    
+    .yeni-header {
+        font-size: 35px;
+        top: 30%;
+        left: 50%;
+        line-height: 42px;
+    }
+    
+    .ozel-header {
+        font-size: 16px;
+        bottom: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .control-prev {
+        margin-left: 40% !important;
+        top: 60% !important;
+    }
+    
+    .control-next {
+        margin-right: 40% !important;
+        top: 60% !important;    
+    }
+
+    .control-dots {
+        margin-left: 0% !important;
+        top: 76% !important;
+    }
 }

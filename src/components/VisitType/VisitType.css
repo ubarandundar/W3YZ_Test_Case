@@ -1,3 +1,7 @@
+.visit-wrapper {
+    margin-bottom: 180px;
+}
+
 .visit-header {
     font-family: 'Manrope';
     font-style: normal;
@@ -33,4 +37,96 @@
     cursor: pointer;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.visit-type-body {
+    text-decoration: none;
+}
+
+.visit-type-body:hover .arrow {
+    transform: scale(1.2);
+}
+
+.visit-type-body:hover .visit-exp {
+    color: #D3148B;
+}
+
+.visit-left {
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .visit-wrapper {
+        margin-bottom: 160px;
+    }
+
+    .visit-header {
+        font-size: 55px;
+    }   
+    
+    .visit-parag {
+        font-size: 25px;
+    }
+    
+    .visit-exp {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .visit-wrapper {
+        margin-bottom: 140px;
+    }
+
+    .visit-type-body {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .visit-wrapper {
+        margin-bottom: 120px;
+    }
+
+    .visit-header {
+        font-size: 50px;
+    }   
+    
+    .visit-parag {
+        font-size: 20px;
+    }
+    
+    .visit-exp {
+        font-size: 14px;
+    }
+
+    .visit-type-body {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .visit-wrapper {
+        margin-bottom: 100px;
+    }
+
+    .visit-header {
+        font-size: 50px;
+        margin: auto;
+        text-align: center;
+    }   
+    
+    .visit-parag {
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .visit-exp {
+        font-size: 14px;
+    }
+
+    .visit-type-body {
+        margin-bottom: 30px !important;
+    }
 }

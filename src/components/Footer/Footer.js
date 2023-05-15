@@ -9,11 +9,11 @@ import LinkedinImage from '../../assets/linkedin.png';
 
 function Footer() {
   return (
-    <footer className='container-fluid'>
+    <footer className='footer-wrapper container-fluid'>
         <div className='row'>
-            <div className='col-7'>
+            <div className='col-md-12 col-lg-12 col-xl-6 d-flex justify-content-center links-area'>
                 <div className='row'>
-                    <div className='col-4'>
+                    <div className='col-sm-12 col-md-4 col-lg-4'>
                         <header>
                             HAKKIMIZDA
                         </header>
@@ -29,23 +29,23 @@ function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className='col-3'>
-                        <header>
+                    <div className='middle-column col-sm-12 col-md-4 col-lg-4'>
+                        <header className='web-header'>
                         WEBSİTEMİZ
                         </header>
                         <ul>
                             <li>
-                                <a href='www.google.com'>Online bilet al</a>
+                                <a className='web-sub' href='www.google.com'>Online bilet al</a>
                             </li>
                             <li>
-                                <a href='www.google.com'>Mağaza</a>
+                                <a className='web-sub' href='www.google.com'>Mağaza</a>
                             </li>
                             <li>
-                                <a href='www.google.com'>Koleksiyonlar</a>
+                                <a className='web-sub' href='www.google.com'>Koleksiyonlar</a>
                             </li>
                         </ul>
                     </div>
-                    <div className='col-3'>
+                    <div className='col-sm-12 col-md-4 col-lg-4'>
                         <header>
                         CONTACT
                         </header>
@@ -67,7 +67,7 @@ function Footer() {
                 </div>
             </div>
             <div className='col-1 middle-line'></div>
-            <div className='col-4 d-flex flex-column'>
+            <div className='d-none d-sm-block col-md-12 col-lg-12 col-xl-4 d-flex flex-column'>
                 <div className='d-flex flex-row'>
                 <header className='follow-header'>
                     Bizi Takip Et 
@@ -75,32 +75,32 @@ function Footer() {
                 <div className='right-line'></div>
                 </div>
                 <div className='d-flex flex-row social-media'>
-                    <a href='wwww.google.com'>
+                    <a className='social-media-wrapper' href='wwww.google.com'>
                         <div className='social-media-body'>
                             <img src={FacebookImage} alt='FacebookImage' />
                         </div>
                     </a>
-                    <a href='wwww.google.com'>
+                    <a className='social-media-wrapper' href='wwww.google.com'>
                         <div className='social-media-body'>
                             <img src={InstagramImage} alt='FacebookImage' />
                         </div>
                     </a>
-                    <a href='wwww.google.com'>
+                    <a className='social-media-wrapper' href='wwww.google.com'>
                         <div className='social-media-body'>
                             <img src={TwitterImage} alt='FacebookImage' />
                         </div>
                     </a>
-                    <a href='wwww.google.com'>
+                    <a className='social-media-wrapper' href='wwww.google.com'>
                         <div className='social-media-body'>
                             <img src={YoutubeImage} alt='FacebookImage' />
                         </div>
                     </a>
-                    <a href='wwww.google.com'>
+                    <a className='social-media-wrapper' href='wwww.google.com'>
                         <div className='social-media-body'>
                             <img src={PinterestImage} alt='FacebookImage' />
                         </div>
                     </a>
-                    <a href='wwww.google.com'>
+                    <a className='social-media-wrapper' href='wwww.google.com'>
                         <div className='social-media-body'>
                             <img src={LinkedinImage} alt='FacebookImage' />
                         </div>
@@ -109,7 +109,7 @@ function Footer() {
             </div>
         </div>
         <div className='bottom-line'></div>
-        <div className='footer-bottom-side d-flex flex-row justify-content-center'>
+        <div className='footer-bottom-side d-flex flex-row justify-content-center text-center'>
             <a href='www.google.com'>
                 Legal Notice
             </a>

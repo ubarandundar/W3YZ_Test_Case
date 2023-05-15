@@ -10,7 +10,7 @@ import ArrowImage from '../../assets/Arrow.png';
 
 function VisitType() {
   return (
-    <div style={{marginBottom: '180px'}} className='container'>
+    <div className='visit-wrapper container'>
         <div className='row'>
             <div className='col-md-12 col-lg-6 pb-5 d-flex flex-column justify-content-center'>
                 <div className='visit-header'>
@@ -22,10 +22,10 @@ function VisitType() {
             </div>
             <div className='col-md-12 col-lg-6'>
                 <div className='row'>
-                    <div className='col-6 d-flex flex-column pe-5'>
-                        <div style={{marginBottom: '95px'}} className='d-flex flex-row justify-content-between'>
+                    <div className='col-sm-12 col-md-12 col-lg-6 d-flex flex-column'>
+                        <a href='www.google.com' style={{marginBottom: '95px'}} className='visit-type-body d-flex flex-row justify-content-between'>
                             <div className='d-flex flex-row'>
-                                <img src={AileZiyaretImage} alt='VisitTypeImage' />
+                                <img className='visit-logo' src={AileZiyaretImage} alt='VisitTypeImage' />
                                 <div className='visit-exp'>
                                 Aile ile ziyaret
                                 </div>
@@ -33,10 +33,10 @@ function VisitType() {
                             <div className='arrow-body'>
                                 <img className='arrow' src={ArrowImage} alt='VisitTypeImage' />
                             </div>
-                        </div>
-                        <div style={{marginBottom: '95px'}} className='d-flex flex-row justify-content-between'>
+                        </a>
+                        <a href='www.google.com' style={{marginBottom: '95px'}} className='visit-type-body d-flex flex-row justify-content-between'>
                             <div className='d-flex flex-row'>
-                                <img src={GrupZiyaretImage} alt='VisitTypeImage' />
+                                <img className='visit-logo' src={GrupZiyaretImage} alt='VisitTypeImage' />
                                 <div className='visit-exp'>
                                 Grup olarak ziyaret
                                 </div>
@@ -44,10 +44,10 @@ function VisitType() {
                             <div className='arrow-body'>
                                 <img className='arrow' src={ArrowImage} alt='VisitTypeImage' />
                             </div>
-                        </div>
-                        <div className='d-flex flex-row justify-content-between'>
+                        </a>
+                        <a href='www.google.com' className='visit-type-body d-flex flex-row justify-content-between'>
                             <div className='d-flex flex-row'>
-                                <img src={ArastirmaZiyaretImage} alt='VisitTypeImage' />
+                                <img className='visit-logo' src={ArastirmaZiyaretImage} alt='VisitTypeImage' />
                                 <div className='visit-exp'>
                                 Araştırma için ziyaret
                                 </div>
@@ -55,12 +55,12 @@ function VisitType() {
                             <div className='arrow-body'>
                                 <img className='arrow' src={ArrowImage} alt='VisitTypeImage' />
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div className='col-6 d-flex flex-column ps-5'>
-                        <div style={{marginBottom: '95px'}} className='d-flex flex-row justify-content-between'>
+                    <div className='col-sm-12 col-md-12 col-lg-6 flex-column'>
+                        <a href='www.google.com' style={{marginBottom: '95px'}} className='visit-type-body d-flex flex-row justify-content-between'>
                             <div className='d-flex flex-row'>
-                                <img src={EngelZiyaretImage} alt='VisitTypeImage' />
+                                <img className='visit-logo' src={EngelZiyaretImage} alt='VisitTypeImage' />
                                 <div className='visit-exp'>
                                 Engelinize göre ziyaret
                                 </div>
@@ -68,10 +68,10 @@ function VisitType() {
                             <div className='arrow-body'> 
                                 <img className='arrow' src={ArrowImage} alt='VisitTypeImage' />
                             </div>
-                        </div>
-                        <div style={{marginBottom: '95px'}} className='d-flex flex-row justify-content-between'>
+                        </a>
+                        <a href='www.google.com' style={{marginBottom: '95px'}} className='visit-type-body d-flex flex-row justify-content-between'>
                             <div className='d-flex flex-row'>
-                                <img src={KurumsalZiyaretImage} alt='VisitTypeImage' />
+                                <img className='visit-logo' src={KurumsalZiyaretImage} alt='VisitTypeImage' />
                                 <div className='visit-exp'>
                                 Kurumsal eğitim için ziyaret
                                 </div>
@@ -79,10 +79,10 @@ function VisitType() {
                             <div className='arrow-body'>
                                 <img className='arrow' src={ArrowImage} alt='VisitTypeImage' />
                             </div>
-                        </div>
-                        <div className='d-flex flex-row justify-content-between'>
+                        </a>
+                        <a href='www.google.com' className='visit-type-body d-flex flex-row justify-content-between'>
                             <div className='d-flex flex-row'>
-                                <img src={SponsorZiyaretImage} alt='VisitTypeImage' />
+                                <img className='visit-logo' src={SponsorZiyaretImage} alt='VisitTypeImage' />
                                 <div className='visit-exp'>
                                 Sponsor olmak için ziyaret
                                 </div>
@@ -90,7 +90,7 @@ function VisitType() {
                             <div className='arrow-body'>
                                 <img className='arrow' src={ArrowImage} alt='VisitTypeImage' />
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

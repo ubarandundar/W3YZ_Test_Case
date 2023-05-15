@@ -3,15 +3,15 @@ import HappyGaleriImage from '../../assets/happygaleri.svg';
 
 function Navbar() {
   return (
-    <nav className='container-fluid d-flex flex-row justify-content-between'>
-        <div className='d-flex flex-row'>
+    <nav className='container-fluid'>
+        <div className='logo-body'>
             <img src={HappyGaleriImage} alt='HappyGaleriImage' />
             <header>
                 HAPPY GALERİ
             </header>
         </div>
         <div className='d-flex'>
-            <ul className='d-flex flex-row align-items-center'>
+            <ul>
                 <li>
                     <a href='www.google.com'>Hakkımızda</a>
                 </li>

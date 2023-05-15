@@ -70,7 +70,15 @@ footer hr {
     opacity: 0.7;
 }
 
-footer a {
+.social-media-body:hover {
+    background: #D3148B;
+}
+
+.social-media-wrapper {
+    margin-right: 24px;
+}
+
+.footer-bottom-side a {
     margin-right: 24px;
 }
 
@@ -98,4 +106,64 @@ footer a img {
 
 .footer-bottom-side {
     margin-top: 26px;
+}
+
+.footer-wrapper a:hover {
+    color: #D3148B;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .links-area {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    footer {
+        padding: 63px 80px !important;
+    }
+
+    .links-area {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    footer {
+        padding: 63px 80px !important;
+    }
+
+    .web-header {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .web-sub {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .links-area {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    footer {
+        padding: 63px 80px !important;
+    }
+    
+    .web-header {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .web-sub {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .links-area {
+        margin-bottom: 40px;
+    }
 }
